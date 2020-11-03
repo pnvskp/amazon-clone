@@ -1,0 +1,24 @@
+.home{
+  background-color: #EAEDED;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1700px;
+}
+
+/* .home-container{
+  width:95%;
+} */
+
+.home-row{
+  display: flex;
+  z-index: 1;
+  margin: 0 5px;
+}
+
+.banner-img{
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -120px;
+  mask-image:linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
